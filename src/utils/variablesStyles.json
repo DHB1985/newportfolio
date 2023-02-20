@@ -1,0 +1,11 @@
+{
+  "grey": "#333",
+  "black": "#000000",
+  "menuSelector": "#F06000",
+  "veryLightPink": "#C7C7C7",
+  "textInputField": "#F7F7F7",
+  "hospitalGreen": "#ACD9B2",
+  "sm": "14px",
+  "md": "16px",
+  "lg": "18px"
+}
