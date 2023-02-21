@@ -1,5 +1,6 @@
 {
   "name": "newportfolio",
+  "homepage": "https://dhb1985.github.io/newportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@iconify/react": "^4.1.0"
+    "@iconify/react": "^4.1.0",
+    "gh-pages": "^5.0.0"
   }
 }
