@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/newportfolio/static/css/main.72fc69a0.css",
+    "main.js": "/newportfolio/static/js/main.2265367f.js",
+    "static/js/787.35fe7324.chunk.js": "/newportfolio/static/js/787.35fe7324.chunk.js",
+    "static/media/header-background.jpg": "/newportfolio/static/media/header-background.60a1d768614a2bdc6a69.jpg",
+    "static/media/fotolinkedin.jpg": "/newportfolio/static/media/fotolinkedin.281e21d1b3b325dd7eb2.jpg",
+    "index.html": "/newportfolio/index.html",
+    "main.72fc69a0.css.map": "/newportfolio/static/css/main.72fc69a0.css.map",
+    "main.2265367f.js.map": "/newportfolio/static/js/main.2265367f.js.map",
+    "787.35fe7324.chunk.js.map": "/newportfolio/static/js/787.35fe7324.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72fc69a0.css",
+    "static/js/main.2265367f.js"
+  ]
+}
