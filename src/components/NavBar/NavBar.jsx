@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 import stylesConstants from "../../utils/variablesStyles.json"
 
-const NavBar = ({scrollToSection, home, about, skills, projects, menuSelected}) => {
+const NavBar = ({scrollToSection, home, about, skills, projects, contactForm, menuSelected}) => {
 
   return (
     <NavbarContainer>
@@ -33,6 +33,10 @@ const NavBar = ({scrollToSection, home, about, skills, projects, menuSelected}) 
         <NavbarLink onClick={() => scrollToSection(projects)} selected={menuSelected}>
           {/* Projects */}
           PROYECTOS
+        </NavbarLink>
+
+        <NavbarLink onClick={() => scrollToSection(contactForm)} selected={menuSelected}>
+          CONTACTO
         </NavbarLink>
 
         {/* <NavbarLink to="/calendario">

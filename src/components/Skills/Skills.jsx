@@ -1,9 +1,8 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { Icon } from "@iconify/react";
-import { IoLogoJavascript } from "react-icons/io5";
 
-const Skills = ({scrollToSection, skills}) => {
+const Skills = ({skills}) => {
 
   return (
     <Container ref={skills} id="3" >

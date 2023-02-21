@@ -5,6 +5,7 @@ import About from './components/About/About';
 import Home from './components/Home/Home';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
+import ContactForm from './components/ContactForm/ContactForm';
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
   const about = useRef(null);
   const skills = useRef(null);
   const projects = useRef(null);
+  const contactForm = useRef(null);
   
   const [menuSelected, setMenuSelected] = useState(1)
  
@@ -39,6 +41,10 @@ const App = () => {
       if(window.scrollY > 2600){
         setMenuSelected(4)
       }
+
+      if(window.scrollY > 3500){
+        setMenuSelected(5)
+      }
       console.log(window.scrollY);
     }
     
@@ -47,11 +53,20 @@ const App = () => {
   
   return (
     <>
-      <NavBar scrollToSection={scrollToSection} home={home} about={about} skills={skills} projects={projects} menuSelected={menuSelected} />
-      <Home scrollToSection={scrollToSection} home={home}/>
-      <About scrollToSection={scrollToSection} about={about}/>
-      <Skills scrollToSection={scrollToSection} skills={skills}/>
-      <Projects scrollToSection={scrollToSection} projects={projects}/>
+      <NavBar 
+        scrollToSection={scrollToSection} 
+        home={home} 
+        about={about} 
+        skills={skills} 
+        projects={projects} 
+        contactForm={contactForm} 
+        menuSelected={menuSelected} 
+      />
+      <Home home={home}/>
+      <About about={about}/>
+      <Skills skills={skills}/>
+      <Projects projects={projects}/>
+      <ContactForm contactForm={contactForm}/>
       </>
   //  <Fragment>
   //     <NavBar />

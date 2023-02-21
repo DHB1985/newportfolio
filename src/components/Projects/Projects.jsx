@@ -1,9 +1,11 @@
 import React from "react";
-import styled, { css } from "styled-components";
+import { Link } from "react-router-dom";
+
+import styled from "styled-components";
 
 import { projectsArr } from "../../utils/projects";
 
-const Projects = ({scrollToSection, projects}) => {
+const Projects = ({projects}) => {
   return (
     <Container ref={projects} id="4">
       <TitleH2>Proyectos</TitleH2>
@@ -21,38 +23,38 @@ const Projects = ({scrollToSection, projects}) => {
 
           return (
             <Project type={index%2 === 0 ? false : true} key={index} >
-              <Info className='projects_texts'>
+              <Info>
                 <TitleH3>{title}</TitleH3>
 
                 <p>{description}</p>
                 <TitleH4>Tecnologias</TitleH4>
                 <p>{technologies}</p>
 
-                <Links className="proyects_links">
-                  <Link
+                <Links>
+                  <LINK
                     target="_blank"
                     rel="noopener noreferrer"
                     to={repoGitHub}
                   >
                     Github Repo
-                  </Link>
+                  </LINK>
                   {url && (
-                    <Link
+                    <LINK
                       to={url}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       Web Link
-                    </Link>
+                    </LINK>
                   )}
                 </Links>
               </Info>
-              <div className="proyects_img">
-                {imgUrl && <img src={imgUrl} />}
+              <ImageContainer>
+                {imgUrl && <Image src={imgUrl} />}
                 {videoUrl && (
-                  <iframe width="420" height="315" src={videoUrl}></iframe>
+                  <iframe width="420" height="315" src={videoUrl} title={title} />
                 )}
-              </div>
+              </ImageContainer>
             </Project>
           );
         })}
@@ -91,6 +93,8 @@ const Project = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 10px;
+  width: 100%;
   ${({ type}) => 
     type && 
     `
@@ -113,7 +117,11 @@ const TitleH3 = styled.h3`
 `;
 
 const Info = styled.div`
-  width 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
   padding: 1%;
   @media (min-width: 641px) {
 
@@ -134,17 +142,40 @@ const TitleH4 = styled.h4`
 
 const Links = styled.div`
   display: flex;
-  padding: 20px;
   justify-content: space-around;
   align-items: center;
+  padding: 20px;
+  width: 100%;
   @media (min-width: 641px) {
 
   }
 `;
 
-const Link = styled(Link)`
-  color: #fff;
+const LINK = styled(Link)`
+  color: #11abb0;
   text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  &:hover {
+    color: #313131;
+  }
+  @media (min-width: 641px) {
+
+  }
+`;
+
+const ImageContainer = styled.div`
+  width: 35%;
+  padding: 1%;
+  @media (min-width: 641px) {
+
+  }
+`;
+
+const Image = styled.img`
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
   @media (min-width: 641px) {
 
   }

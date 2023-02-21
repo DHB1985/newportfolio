@@ -9,7 +9,7 @@ import { FaLinkedinIn, FaGithub, FaDownload } from "react-icons/fa";
 
 // import stylesConstants from "../../utils/variablesStyles.json"
 
-const About = ({scrollToSection, about}) => {
+const About = ({about}) => {
 
   return (
     <Container ref={about} id="2" >

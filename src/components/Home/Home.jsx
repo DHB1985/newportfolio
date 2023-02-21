@@ -7,7 +7,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 // import stylesConstants from "../../utils/variablesStyles.json"
 import backGroundImg from "../../assets/header-background.jpg"
 
-const Home = ({scrollToSection, home}) => {
+const Home = ({home}) => {
   
   return (
     <Container ref={home} id="1" >
