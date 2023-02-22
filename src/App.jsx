@@ -62,7 +62,7 @@ const App = () => {
         contactForm={contactForm} 
         menuSelected={menuSelected} 
       />
-      <Home home={home}/>
+      <Home home={home} about={about} scrollToSection={scrollToSection}/>
       <About about={about}/>
       <Skills skills={skills}/>
       <Projects projects={projects}/>

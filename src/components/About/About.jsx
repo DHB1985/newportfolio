@@ -23,8 +23,12 @@ const About = ({about}) => {
           hasta desarrollar una aplicación en equipo.
         </TitleH3>
         <TitleH3 style={{color: "#bfbfbf"}}>
-          Me inicie en el mundo del desarrollo web hace poco. Hoy busco
-          oportunidades que ayuden a mi desarrollo personal. Soy una persona
+          Como soy una persona inquieta y me encanta afianzar mis conocimientos y 
+          aprender cosas nuevas, en estos momentos estoy realizando cursos tanto en Udemy
+          como en Platzi.
+        </TitleH3>
+        <TitleH3 style={{color: "#bfbfbf"}}>
+          Soy una persona
           proactiva, con buena disposición, siempre dispuesta, respetuosa y
           por sobre todo con ganas de trabajar en equipo.
         </TitleH3>
@@ -49,7 +53,7 @@ const About = ({about}) => {
               </LIST>
           </Contact>
           <LINKButton
-            to="https://drive.google.com/file/d/1Iu-iXDQIAhi-w9OifV_18Y9mDHw_6SuR/view?usp=sharing"
+            to="https://drive.google.com/file/d/1ZnY0E9fjaKh-6hQTf00EZKm2FZBTxgqX/view?usp=share_link"
             target="_blank"
             rel="noopener noreferrer"
           >

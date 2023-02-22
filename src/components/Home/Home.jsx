@@ -7,16 +7,16 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 // import stylesConstants from "../../utils/variablesStyles.json"
 import backGroundImg from "../../assets/header-background.jpg"
 
-const Home = ({home}) => {
+const Home = ({home, about, scrollToSection}) => {
   
   return (
     <Container ref={home} id="1" >
-      <TitleH1>Soy Daniel Barbieri.</TitleH1>
+      <TitleH1>Daniel Barbieri Portfolio.</TitleH1>
       <TitleH3>
-        Soy un desarrollador <SPAN>Full - Stack</SPAN>, en
-        <SPAN> Javascript. </SPAN>
+        Soy un desarrollador <SPAN>Full - Stack</SPAN>, orientado al
+        <SPAN> Back-End. </SPAN>
         Sigue y lee{" "}
-        <LINK to="#about">
+        <LINK onClick={() => scrollToSection(about)}>
         acerca de mí
         </LINK>
         .
