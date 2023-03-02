@@ -5,9 +5,7 @@ import styled from "styled-components";
 import foto from "../../assets/fotolinkedin.jpg"
 
 import { FaLinkedinIn, FaGithub, FaDownload } from "react-icons/fa";
-// import { HiOutlineDocumentDownload } from "react-icons/hi";
 
-// import stylesConstants from "../../utils/variablesStyles.json"
 
 const About = ({about}) => {
 
@@ -17,10 +15,10 @@ const About = ({about}) => {
       <Content>
         <TitleH2>ACERCA DE MÍ</TitleH2>
         <TitleH3 style={{color: "#bfbfbf"}}>
-          Desarrollador Fullstack JavaScript. Realicé un bootcamp de más de
-          800 hs. de estudio intensivo que me preparó para desempeñarme como
-          desarrollador Full-Stack. Dentro del curso aprendí desde lo básico
-          hasta desarrollar una aplicación en equipo.
+          Soy Ingeniero Electrónico, apasionado por la programación, por ello me interesó la programación web. 
+          Realicé un bootcamp de más de 800 hs. de estudio intensivo que me preparó para desempeñarme como
+          desarrollador Full-Stack. Dentro del bootcamp aprendí desde lo básico hasta desarrollar aplicaciónes en equipo.
+          Como desarrollador me oriento más al Back-End.
         </TitleH3>
         <TitleH3 style={{color: "#bfbfbf"}}>
           Como soy una persona inquieta y me encanta afianzar mis conocimientos y 
