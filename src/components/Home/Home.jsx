@@ -11,7 +11,7 @@ const Home = ({home, about, scrollToSection}) => {
   
   return (
     <Container ref={home} id="1" >
-      <TitleH1>Daniel Barbieri Portfolio.</TitleH1>
+      <TitleH1>Daniel Barbieri Portfolio</TitleH1>
       <TitleH3>
         Soy un desarrollador <SPAN>Full-Stack</SPAN>, orientado al
         <SPAN> Back-End. </SPAN>

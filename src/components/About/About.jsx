@@ -21,15 +21,18 @@ const About = ({about}) => {
           Como desarrollador me oriento más al Back-End.
         </TitleH3>
         <TitleH3 style={{color: "#bfbfbf"}}>
-          Como soy una persona inquieta y me encanta afianzar mis conocimientos y 
+          Siendo una persona inquieta, siempre busco afianzar mis conocimientos y 
           aprender cosas nuevas, en estos momentos estoy realizando cursos tanto en Udemy
-          como en Platzi.
+          como en Platzi, sobre back-end.
         </TitleH3>
         <TitleH3 style={{color: "#bfbfbf"}}>
-          Soy una persona
-          proactiva, con buena disposición, siempre dispuesta, respetuosa y
+          Me considero una persona
+          proactiva, con buena disposición, respetuosa y
           por sobre todo con ganas de trabajar en equipo.
         </TitleH3>
+        {/* <TitleH3 style={{color: "#bfbfbf"}}>
+          Poner algun logro.
+        </TitleH3> */}
         <ContactDetail>
           <Contact className="columns contact-details">
             <TitleH2>Contacto</TitleH2>
@@ -51,7 +54,7 @@ const About = ({about}) => {
               </LIST>
           </Contact>
           <LINKButton
-            to="https://drive.google.com/file/d/1ZnY0E9fjaKh-6hQTf00EZKm2FZBTxgqX/view?usp=share_link"
+            to="https://drive.google.com/file/d/1vDL8vRAddBtZ3TdifNrqrkWh9SSWCJ2m/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
